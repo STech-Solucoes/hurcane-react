@@ -1,6 +1,6 @@
 {
   "name": "hurcane-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React components for embedding Hurcane AI agents",
   "author": "Hurcane",
   "license": "MIT",
@@ -9,7 +9,14 @@
     "type": "git",
     "url": "https://github.com/hurcane/hurcane-react"
   },
-  "keywords": ["hurcane", "ai", "agent", "chatbot", "react", "widget"],
+  "keywords": [
+    "hurcane",
+    "ai",
+    "agent",
+    "chatbot",
+    "react",
+    "widget"
+  ],
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -20,7 +27,9 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch"
