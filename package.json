@@ -1,6 +1,6 @@
 {
   "name": "hurcane-react",
-  "version": "0.1.1",
+  "version": "0.2.4",
   "description": "React components for embedding Hurcane AI agents",
   "author": "Hurcane",
   "license": "MIT",
